@@ -19,7 +19,10 @@ def pregunta_01():
 
     Rta/
     214
-
+    sum = 0
+    for dato in datosPreparados:
+        sum += int(dato[1])
+    return sum
     """
     return
 
